@@ -1,0 +1,563 @@
+/* ----- HEADER ------------------  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Because we want header to be sticky later */
+  height: 15vh;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+/* .logo {
+  height: 2.2rem;
+} */
+
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  margin-right: 0;
+  background-color: #fff;
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+.nav-call-container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-line {
+  border-left: 1px solid #808080; /* Adjust the color as needed */
+  height: 40px; /* Adjust the height of the line as needed */
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+.nav-call-icon {
+  color: #e53935;
+  font-size: 4rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center; /* Align the items along the cross-axis */
+  flex-grow: 3;
+  justify-content: flex-end;
+  padding-right: 5rem;
+}
+
+.call-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.subheading-call-nav {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #555555;
+}
+
+.heading-secondary-call-nav {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* ---------- SECTION 1 ---------------- */
+
+.section-1 {
+  background-image: url("../images/fire-alarm-landing-2.jpg");
+  background-size: cover;
+
+  height: 90vh;
+  background-position: center 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000000;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+}
+
+.primary-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+  background-color: rgba(50, 50, 50, 0.5);
+  padding: 45px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.get-quote {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #e53935;
+  padding: 35px 60px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 30px;
+}
+
+.get-quote:hover {
+  background-color: #c62828;
+}
+
+/* -------- SECTION RED QUOTE ------------- */
+
+.section-quote {
+  background-color: #e53935;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quote-container h2 {
+  font-size: 2rem;
+}
+
+.quote-container p {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.quote-number {
+  /* color: #ffff00; */
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+/* ---------- EMAIL US --------------- */
+
+/* .email-us {
+  background-color: #e53935;
+  height: 30vh;
+  color: #fff;
+} */
+
+/* --------- ABOUT SECTION ------------- */
+
+.section-about {
+  padding: 10rem 0;
+  background-color: #f5f5f5;
+  margin-bottom: 5rem;
+}
+
+.about-section-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.install-picture {
+  /* padding-right: 15rem; */
+  display: block;
+  width: 40vw;
+  padding-right: 5rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.about-section-text-1 {
+  font-weight: 800;
+  line-height: 4rem;
+  padding-left: 5rem;
+  width: 40vw;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.about-section-text-2 {
+  font-weight: 300;
+  line-height: 3.5rem;
+  padding-left: 5rem;
+  width: 40vw;
+  font-size: 2.5rem;
+}
+
+/* ---------- ICONS --------------- */
+
+.section-icons {
+  padding: 9.6rem 0;
+}
+
+.feature-icon {
+  color: #fff;
+  height: 5.2rem;
+  width: 5.2rem;
+  background-color: #555555;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+  border: 0.3rem solid #e53935;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* ---------------- CONTACT FORM ------------------ */
+
+.contact-section {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  padding: 7rem;
+  /* background-color: #e53935; */
+  background-color: #f5f5f5;
+  /* background-image: url("../images/contact-form-background.jpg");
+  background-size: cover;
+  
+
+  
+  background-position: center; */
+
+  padding: 10rem 0 15rem 0;
+}
+
+.contact-form-container {
+  /* padding: 5rem; */
+  /* width: 60%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.contact-header {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #e53935;
+  font-weight: 300;
+}
+
+.contact-map {
+  width: 30vw;
+  height: 40vh;
+  border: 1px solid #ddd; /* Customize the border properties */
+  border-radius: 8px; /* Adjust the border radius to control the corners */
+  overflow: hidden; /* Hide any content that overflows the container */
+  align-self: center;
+}
+
+.enquiries-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin: 0 10rem;
+  color: #333;
+  width: 20vw;
+  font-size: 2rem;
+}
+
+.enquiries-container h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+/* .enquiries-container p {
+  font-size: 2rem;
+  padding-left: 2rem;
+} */
+
+.enq-email {
+  color: #e53935;
+  margin-top: 10px;
+  display: block;
+}
+
+.enq-address {
+  line-height: 3.5rem;
+}
+
+.contact-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0; /* Remove the border of the iframe */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+
+  height: 100%;
+}
+
+textarea {
+  height: 13rem; /* Adjust this value as needed */
+  /* Other styles */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #e53935;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #c62828;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-group label {
+  display: block;
+}
+
+.required {
+  color: red;
+}
+
+.required-text {
+  font-style: italic;
+  color: #808080;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* -------- FOOTER ------------ */
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+  background-color: #555555;
+}
+
+.grid--footer {
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #aaaaaa;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  color: #fff;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+#mapDiv {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-telephone {
+  background-color: #000000;
+  color: #fff;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+  color: #aaaaaa;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  color: #aaaaaa;
+}
+
+.nav-col {
+  display: flex;
+  flex-direction: column;
+  color: #aaaaaa;
+  align-items: flex-start;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+
+  transition: all 0.3s;
+  color: #aaaaaa;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.footer-contact:link,
+.footer-contact:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.footer-contact:hover,
+.footer-contact:active {
+  color: #555;
+}
+
+.dennis-devs {
+  height: 15vh;
+  background-color: #e53935;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dennis-copy {
+  color: #fff;
+  font-size: 1rem;
+}

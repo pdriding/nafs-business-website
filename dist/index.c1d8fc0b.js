@@ -577,6 +577,19 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"8c3OQ":[function(require,module,exports) {
 var _ionicons = require("ionicons");
 console.log("Hello World!!");
+const sectionHeroEl = document.querySelector(".section-1");
+const obs = new IntersectionObserver(function(entries) {
+    const ent = entries[0];
+    console.log(ent);
+    if (ent.isIntersecting === false) document.body.classList.add("sticky");
+    if (ent.isIntersecting === true) document.body.classList.remove("sticky");
+}, {
+    // In the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px"
+});
+obs.observe(sectionHeroEl);
 
 },{"ionicons":"aFqm3"}],"aFqm3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
