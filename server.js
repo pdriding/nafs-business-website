@@ -13,7 +13,9 @@ app.set("views", path.join(__dirname, "public"));
 app.engine("html", ejs.renderFile);
 app.set("view engine", "html");
 
-const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+// const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+
+const apiKey = "AIzaSyAv9QoZeOfI8QAZAKtlm29Awm5nL_KknGc";
 
 app.get("/", (req, res) => {
   res.render("index", { apiKey: apiKey }); // Pass the apiKey to the view
