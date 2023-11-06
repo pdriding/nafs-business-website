@@ -178,6 +178,15 @@
     width: 90%;
   }
 
+  .get-quote {
+    font-size: 2.5rem;
+  }
+
+  .prev,
+  .next {
+    z-index: 99;
+  }
+
   .about-section-flex {
     flex-direction: column;
     justify-content: center;

@@ -81,12 +81,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (prevButton) {
     prevButton.addEventListener("click", function () {
+      console.log("bu");
       plusSlides(-1);
     });
   }
 
   if (nextButton) {
     nextButton.addEventListener("click", function () {
+      console.log("hello");
       plusSlides(1);
     });
   }
