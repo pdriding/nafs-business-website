@@ -1,11 +1,12 @@
-console.log("Hello World!!");
+"strict";
+
+// ------- STICKY NAV ------------
 
 const sectionHeroEl = document.querySelector(".section-1");
 
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    console.log(ent);
 
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
@@ -24,24 +25,7 @@ const obs = new IntersectionObserver(
 );
 obs.observe(sectionHeroEl);
 
-// document.addEventListener("DOMContentLoaded", async () => {
-//   try {
-//     const response = await fetch("/api/data");
-//     const data = await response.json();
-//     console.log(data);
-//     const apiKey = data.apiKey; // Assuming the response contains the API key
-
-//     const iframe = document.querySelector(".contact-iframe");
-//     const src = iframe.getAttribute("src");
-//     const newSrc = src.replace(
-//       "AIzaSyAv9QoZeOfI8QAZAKtlm29Awm5nL_KknGc",
-//       apiKey
-//     );
-//     iframe.setAttribute("src", newSrc);
-//   } catch (error) {
-//     console.error("Failed to fetch API key", error);
-//   }
-// });
+// ------ GOOGLE MAPS API ------
 
 let map;
 
@@ -55,3 +39,74 @@ async function initMap() {
 }
 
 initMap();
+
+// -------- ROTATING LANDING PICTURES ---------
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const prevButton = document.querySelector(".prev");
+  const nextButton = document.querySelector(".next");
+  const dots = document.querySelectorAll(".dot");
+
+  if (prevButton) {
+    prevButton.addEventListener("click", function () {
+      plusSlides(-1);
+    });
+  }
+
+  if (nextButton) {
+    nextButton.addEventListener("click", function () {
+      plusSlides(1);
+    });
+  }
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", function () {
+      currentSlide(index + 1);
+    });
+  });
+
+  // Automatic slide change every 5 seconds
+  setInterval(() => {
+    plusSlides(1);
+  }, 10000);
+});
+
+// ---- MOBILE NAV -----
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});

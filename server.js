@@ -13,9 +13,7 @@ app.set("views", path.join(__dirname, "public"));
 app.engine("html", ejs.renderFile);
 app.set("view engine", "html");
 
-// const apiKey = process.env.GOOGLE_MAPS_API_KEY;
-
-const apiKey = "AIzaSyAv9QoZeOfI8QAZAKtlm29Awm5nL_KknGc";
+const apiKey = process.env.GOOGLE_MAPS_API_KEY;
 
 app.get("/", (req, res) => {
   res.render("index", { apiKey: apiKey }); // Pass the apiKey to the view
@@ -24,6 +22,7 @@ app.get("/", (req, res) => {
 const port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
+app.use("/scripts", express.static(path.join(__dirname, "node_modules")));
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

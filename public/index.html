@@ -9,12 +9,21 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="assets/stylesheets/index.css" />
     <link rel="stylesheet" href="assets/stylesheets/general.css" />
+    
+    
+    <link rel="stylesheet" href="assets/stylesheets/queries.css">
+
   </head>
   <body>
     <header class="header">
       <div class="header-container">
+        
         <!-- Your header content goes here -->
         <a href="#">
           <img
@@ -41,16 +50,57 @@
             <h2 class="heading-secondary-call-nav">0207 3980 9040</h2>
           </div>
         </div>
+        <!-- <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button> -->
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav md hydrated" name="menu-outline" role="img" aria-label="menu outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav md hydrated" name="close-outline" role="img" aria-label="close outline"></ion-icon>
+        </button>
       </div>
     </header>
 
     <main>
-      <section class="section-1">
-        <div class="section-1-text">
+      <section class="section-1"> <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          
+          <div class="landing-image" style="background-image: url('assets/images/fire-alarm-landing-1.jpg')"></div>
+          
+        </div>
+  
+        <div class="mySlides fade">
+         
+          <div class="landing-image" style="background-image: url('assets/images/fire-alarm-landing-2.jpg')"></div>
+         
+        </div>
+  
+        <div class="mySlides fade">
+         
+          <div class="landing-image" style="background-image: url('assets/images/fire-alarm-landing-3.jpg')"></div>
+          
+        </div>
+  
+        <!-- Next and previous buttons -->
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+      <br />
+  
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" ></span>
+        <span class="dot" ></span>
+        <span class="dot" ></span>
+      </div>
+        <div class="section-1-text ">
           <h1 class="primary-title">Your Fire Alarm Installation Solutions</h1>
-          <!-- Your section 1 content goes here -->
+          
           <h2 class="get-quote">Get a Quote Now</h2>
         </div>
+        
+
       </section>
 
       <section class="section-about">
@@ -80,11 +130,11 @@
                 manufacturers warranty.
               </p>
             </div>
-            <div>
+            <div class="install-picture-container">
               <img
                 class="install-picture"
                 src="assets/images/fire-alarm-install.jpg"
-                alt="Description of the image"
+                alt="Man installing fire alarm"
               />
             </div>
           </div>
@@ -277,9 +327,11 @@
         </div>
       </div>
     </footer>
+   
 
     <div class="dennis-devs">
       <p class="dennis-copy">&copy; 2023 Dennis Devs</p>
+    </div>
     </div>
 
     <script>
