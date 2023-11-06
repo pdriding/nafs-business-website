@@ -167,7 +167,11 @@
 
 @media (max-width: 34em) {
   html {
-    font-size: 30%;
+    font-size: 35%;
+  }
+
+  .landing-image {
+    background-position: 70%;
   }
 
   .primary-title {
@@ -189,11 +193,15 @@
   .about-section-text-1 {
     width: 100%;
     padding: 0;
+    font-size: 3.5rem;
+    line-height: 5rem;
   }
 
   .about-section-text-2 {
     display: block;
     padding: 0;
+    font-size: 3.4rem;
+    line-height: 4.5rem;
   }
 
   .install-picture {
@@ -222,5 +230,43 @@
 
   .logo-col {
     order: 3;
+  }
+  .feature-title {
+    font-size: 3.5rem;
+  }
+  .feature-text {
+    font-size: 2.8rem;
+  }
+  label {
+    font-size: 2.5rem;
+  }
+  .submit-button {
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
+    margin-top: 2.5rem;
+  }
+  .required-text {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .footer-heading {
+    font-size: 2.5rem;
+  }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 2rem;
+  }
+  .contacts {
+    font-size: 2rem;
+  }
+  .footer-contact:link,
+  .footer-contact:visited {
+    font-size: 2rem;
+  }
+  .logo-col {
+    grid-column: 1/4;
+  }
+  .dennis-copy {
+    font-size: 1.5rem;
   }
 }
