@@ -7,9 +7,9 @@
   .container {
     max-width: 120rem;
   }
-  .sticky .header-container {
+  /* .sticky .header-container {
     padding: 0 2.4rem;
-  }
+  } */
   .about-section-texts {
     width: 63%;
   }

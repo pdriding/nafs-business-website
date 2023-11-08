@@ -20,10 +20,25 @@ const obs = new IntersectionObserver(
     // In the viewport
     root: null,
     threshold: 0,
-    rootMargin: "-80px",
+    // rootMargin: "160px",
   }
 );
 obs.observe(sectionHeroEl);
+
+// let lastScrollPosition = 0;
+// const sectionHeroEl = document.querySelector(".section-1");
+
+// window.addEventListener("scroll", function () {
+//   const currentScrollPosition = window.scrollY || window.pageYOffset;
+
+//   if (currentScrollPosition < lastScrollPosition) {
+//     document.body.classList.add("sticky");
+//   } else {
+//     document.body.classList.remove("sticky");
+//   }
+
+//   lastScrollPosition = currentScrollPosition <= 0 ? 0 : currentScrollPosition;
+// });
 
 // ------ GOOGLE MAPS API ------
 
@@ -42,16 +57,26 @@ initMap();
 
 // -------- ROTATING LANDING PICTURES ---------
 let slideIndex = 1;
+let slideInterval;
+
 showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
+  clearInterval(slideInterval); // Clear the interval
   showSlides((slideIndex += n));
+  slideInterval = setInterval(() => {
+    plusSlides(1);
+  }, 10000); // Restart the interval
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
+  clearInterval(slideInterval); // Clear the interval
   showSlides((slideIndex = n));
+  slideInterval = setInterval(() => {
+    plusSlides(1);
+  }, 10000); // Restart the interval
 }
 
 function showSlides(n) {
@@ -81,14 +106,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (prevButton) {
     prevButton.addEventListener("click", function () {
-      console.log("bu");
       plusSlides(-1);
     });
   }
 
   if (nextButton) {
     nextButton.addEventListener("click", function () {
-      console.log("hello");
       plusSlides(1);
     });
   }
@@ -100,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Automatic slide change every 5 seconds
-  setInterval(() => {
+  slideInterval = setInterval(() => {
     plusSlides(1);
   }, 10000);
 });

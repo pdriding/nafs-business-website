@@ -4,14 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
+  height: 10rem;
   padding: 0 2.4rem;
   position: relative;
   width: 100vw;
   max-width: 140rem;
 }
 .logo {
-  height: 12vh;
+  height: 10rem;
 }
 .main-nav-list {
   list-style: none;

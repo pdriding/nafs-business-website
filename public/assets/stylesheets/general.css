@@ -27,13 +27,19 @@ body {
   /* Set your desired background color */
 }
 
+/* NAV BUTTON */
+
+.btn-mobile-nav {
+  display: none;
+}
+
 .sticky .header-container {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   /* width: 100vw; */
-  height: 15vh;
+  height: 10rem;
   padding-top: 0;
   padding-bottom: 0;
   background-color: rgba(255, 255, 255, 0.97);
@@ -44,13 +50,8 @@ body {
   padding: 0 10%;
 }
 
-.test .header {
-  background-color: #000;
-  width: 100vw;
-}
-
-.sticky .section-hero {
-  margin-top: 9.6rem;
+.sticky .section-1 {
+  margin-top: 80px;
 }
 
 .footer {
