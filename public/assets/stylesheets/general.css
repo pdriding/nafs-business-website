@@ -33,13 +33,17 @@ body {
   display: none;
 }
 
+/* .section-1 {
+  margin-bottom: 10rem;
+} */
+
 .sticky .header-container {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   /* width: 100vw; */
-  height: 10rem;
+  height: 10vh;
   padding-top: 0;
   padding-bottom: 0;
   background-color: rgba(255, 255, 255, 0.97);
@@ -53,7 +57,7 @@ body {
 /* You need this margin to stop the screen jumping when the stick
 nav is implemented */
 .sticky .section-1 {
-  margin-top: 80px;
+  margin-top: 10vh;
 }
 
 .footer {
