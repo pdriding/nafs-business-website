@@ -50,6 +50,8 @@ body {
   padding: 0 10%;
 }
 
+/* You need this margin to stop the screen jumping when the stick
+nav is implemented */
 .sticky .section-1 {
   margin-top: 80px;
 }
