@@ -464,6 +464,14 @@ textarea {
   display: block;
   margin-bottom: 1rem;
 }
+.logo-acc {
+  height: 14vh;
+}
+.address-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .social-links {
   list-style: none;
   display: flex;

@@ -1,8 +1,11 @@
 /* ------- MEDIA QUERIES ----------- */
 
 @media (max-width: 75em) {
+  .logo {
+    height: 8vh;
+  }
   .landing-image {
-    width: 100%;
+    width: 105%;
   }
   .container {
     max-width: 120rem;
