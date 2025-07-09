@@ -4,7 +4,7 @@
   "description": "Leading experts in comprehensive fire alarm design and installation solutions for businesses and residences. Our experienced team is dedicated to creating tailored fire safety systems that adhere to industry standards and regulations. From initial design to seamless installation, we prioritize the protection of lives and properties through cutting-edge technology and meticulous craftsmanship.",
   "scripts": {
     "start": "node server.js",
-    "build": "parcel build public/index.html"
+    "build": "parcel build public/index.html --public-url ./"
   },
   "repository": {
     "type": "git",
