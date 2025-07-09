@@ -1,4 +1,4 @@
-13368
+13381
 123C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\swiper\modules\virtual.min.mjs.map133432143914425179 0
 130C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\types\lib\modifications\typescript133965238906156631 1
 123C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\swiper\modules\effect-creative.mjs133432143914580430 0
@@ -54,7 +54,7 @@
 113C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\weak-lru-cache\README.md133422110321765594 0
 118C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\swiper\modules\thumbs.min.mjs133432143915077415 0
 138C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\caniuse-lite\data\features\css-relative-colors.js133427799758241164 0
-80C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist133428156736906007 1
+80C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist133965254133305410 1
 145C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\030-config.md133422110326247799 0
 123C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\partly-sunny.svg133425254748119003 0
 161C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\collection\components\icon\svg\caret-back-circle-sharp.svg133425254740598590 0
@@ -4536,6 +4536,7 @@
 120C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\ice-cream.svg133425254744695121 0
 111C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\domhandler\lib\node.js133422110319873078 0
 85C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\.cache\fb133421761762238601 1
+98C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.358d052d.js133965254133236094 0
 137C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\core\lib\config\validation\plugins.js.map133425255731923847 0
 137C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133422110326328895 0
 140C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\ionicons\svg\play-forward-outline.svg133425254749077448 0
@@ -5779,6 +5780,7 @@
 132C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\markdown-ansi\test\markdown-ansi.js133427802959154550 0
 126C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\log-out-outline.svg133425254745327471 0
 124C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\caniuse-lite\data\regions\alt-eu.js133427799754929624 0
+103C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.92915b60.css.map133965254133290389 0
 118C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\log-out.svg133425254745327471 0
 126C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\newspaper-sharp.svg133425254747425178 0
 145C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\traverse\node_modules\.globals-qnKEzWtd\readme.md133425255730200529 0
@@ -6108,6 +6110,7 @@
 126C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\pricetags-sharp.svg133425254749555348 0
 124C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\prism-outline.svg133425254749587216 0
 122C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\prism-sharp.svg133425254749587216 0
+102C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.358d052d.js.map133965254133290389 0
 122C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\pulse-sharp.svg133425254749587216 0
 129C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\restaurant-outline.svg133425254750738740 0
 124C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\core\node_modules\semver\bin133427802959041427 1
@@ -6157,6 +6160,7 @@
 125C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\remove-outline.svg133425254750433660 0
 130C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\ionicons\svg\cart-sharp.svg133425254740854907 0
 129C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\ionicons\svg\git-merge.svg133425254744062820 0
+114C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\fire-alarm-landing-3.ee52d946.jpg133965254116174975 0
 131C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\reorder-four-outline.svg133425254750433660 0
 130C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\ionicons\dist\svg\reorder-three-sharp.svg133425254750576210 0
 127C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@stencil\core\compiler\lib.es2022.d.ts133427802962412655 0
@@ -9305,6 +9309,7 @@
 118C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\es-define-property\index.d.ts133965238904003460 0
 116C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\es-define-property\index.js133965238902563772 0
 115C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\es-define-property\LICENSE133965238902479068 0
+99C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.9e070552.css133965254133216144 0
 112C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\es-define-property\test133965238902637260 1
 121C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\es-define-property\tsconfig.json133965238903713765 0
 145C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\runtime-js\lib\helpers\browser\preload-loader.js133427802960089068 0
@@ -10369,6 +10374,7 @@
 137C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\caniuse-lite\data\features\css-initial-letter.js133427799757951345 0
 137C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\caniuse-lite\data\features\css-letter-spacing.js133427799758041854 0
 136C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\caniuse-lite\data\features\css-logical-props.js133427799758041854 0
+99C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.b3a9e7ca.css133965254133236094 0
 153C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.d.ts133427799755658724 0
 128C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\caniuse-lite\data\features\css-masks.js133427799758041854 0
 137C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\caniuse-lite\data\features\css-matches-pseudo.js133427799758041854 0
@@ -11213,6 +11219,7 @@
 137C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@swc\helpers\src\_class_private_field_update.mjs133422110330019821 0
 149C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json133427802961393761 0
 135C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@swc\helpers\src\_class_private_method_get.mjs133422110330019821 0
+114C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\fire-alarm-landing-1.c88ebf4c.jpg133965254127403564 0
 146C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@swc\helpers\src\_class_static_private_field_spec_get.mjs133422110330019821 0
 124C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\traverse\lib\path\context.js133425255730963413 0
 146C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.mjs133422110330019821 0
@@ -12318,6 +12325,7 @@
 150C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\CHANGELOG.md133427799757640204 0
 142C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\data133427799757640204 1
 142C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist133427799755780860 1
+112C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\fire-accreditation.7364d67f.png133965254112808858 0
 147C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\README.md133427799757879732 0
 113C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\cache\index.d.ts133427802959714700 0
 148C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser133427799757352469 1
@@ -12399,6 +12407,7 @@
 158C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\index.d.ts.map133427799754981017 0
 152C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\index.js133427799753590656 0
 160C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors133427799755740151 1
+103C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.b3a9e7ca.css.map133965254133290389 0
 157C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.d.ts.map133427799755179133 0
 126C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\core\src\public\Dependency.js133427802960351982 0
 158C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\types.d.ts.map133427799755284271 0
@@ -12980,6 +12989,7 @@
 134C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\helpers\lib\helpers\iterableToArray.js133965238906144535 0
 139C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\helpers\lib\helpers\iterableToArrayLimit.js133965238906156631 0
 143C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\helpers\lib\helpers\iterableToArrayLimit.js.map133965238906166667 0
+103C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.9e070552.css.map133965254133290389 0
 136C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\helpers\lib\helpers\nonIterableSpread.js133965238906223493 0
 139C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\helpers\lib\helpers\nullishReceiverError.js133965238906243451 0
 142C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\@babel\helpers\lib\helpers\objectWithoutProperties.js133965238906316384 0
@@ -13219,23 +13229,26 @@
 98C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\node_modules\.bin\uuid133427861822104460 0
 99C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\client.62456f60.js133428156736345161 0
 117C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\contact-form-background.f6923f1a.jpg133428156736443006 0
-112C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\fire-alarm-install.b50a8c72.jpg133428156736467219 0
+112C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\fire-alarm-install.b50a8c72.jpg133965254116174975 0
+114C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\fire-alarm-landing-2.69fc572e.jpg133965254120025926 0
 114C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\fire-alarm-landing-2.e2cdb9ff.jpg133428156736562305 0
 103C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.19870e51.css.map133428156736743936 0
 98C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.50ae3f0d.js133428156736755692 0
 99C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.5bbf7c63.css133428156736766859 0
+99C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.92915b60.css133965254133236094 0
 99C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.bb741acc.css133428156736781712 0
 103C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.bb741acc.css.map133428156736781712 0
 102C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.daf4f5db.js.map133428156736847251 0
 103C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.dddbaadb.css.map133428156736858385 0
 85C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\.cache\3d133421761761147253 1
-91C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.html133428156736860151 0
+91C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\index.html133965254133216144 0
 104C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\logo-clear.31ddddf3.png133428156736870581 0
 104C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\logo-clear.345a948f.png133428156736870581 0
 100C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\resets.a94f454d.css133421799637946446 0
 99C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\resets.a94f454d.js133428156736895442 0
 122C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\Screenshot 2023-10-20 105927.63c54ba0.png133428156736311208 0
 109C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\stylesheets.be0b7a79.css.map133421799639313627 0
+115C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\dist\wp-fire-logo-removebg.56e305de.png133965254120025926 0
 95C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\.netlify\state.json133431651356423625 0
 85C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\.cache\00133421761760636303 1
 85C:\Users\peter\OneDrive\Documents\Web Development\FREELANCE\WP FIRE WEBSITE\.cache\02133421761760636303 1
